@@ -1,0 +1,90 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwi81amhj2x6l"]
+
+[ext_resource type="AudioStream" uid="uid://de8pi2nupb7q8" path="res://Audio/No Surprises.ogg" id="1"]
+
+[node name="Ship" type="StaticBody2D" groups=["Ship"]]
+collision_layer = 3
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1")
+autoplay = true
+max_distance = 500.0
+bus = &"woter"
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(0, -32)
+polygon = PackedVector2Array(-16, 0, 0, -32, 16, 0, 16, 24, 16, 56, 16, 80, 0, 88, -16, 80, -16, 56)
+
+[node name="Softer" type="Node2D" parent="."]
+
+[node name="AudioStreamPlayer2D9" type="AudioStreamPlayer2D" parent="Softer"]
+position = Vector2(384, 0)
+stream = ExtResource("1")
+volume_db = -10.0
+autoplay = true
+max_distance = 500.0
+attenuation = 5.0
+bus = &"woter"
+
+[node name="AudioStreamPlayer2D10" type="AudioStreamPlayer2D" parent="Softer"]
+position = Vector2(-384, 0)
+stream = ExtResource("1")
+volume_db = -10.0
+autoplay = true
+max_distance = 500.0
+attenuation = 5.0
+bus = &"woter"
+
+[node name="AudioStreamPlayer2D11" type="AudioStreamPlayer2D" parent="Softer"]
+position = Vector2(0, -384)
+stream = ExtResource("1")
+volume_db = -10.0
+autoplay = true
+max_distance = 500.0
+attenuation = 5.0
+bus = &"woter"
+
+[node name="AudioStreamPlayer2D12" type="AudioStreamPlayer2D" parent="Softer"]
+position = Vector2(0, 384)
+stream = ExtResource("1")
+volume_db = -10.0
+autoplay = true
+max_distance = 500.0
+attenuation = 5.0
+bus = &"woter"
+
+[node name="AudioStreamPlayer2D13" type="AudioStreamPlayer2D" parent="Softer"]
+position = Vector2(256, 256)
+stream = ExtResource("1")
+volume_db = -10.0
+autoplay = true
+max_distance = 500.0
+attenuation = 5.0
+bus = &"woter"
+
+[node name="AudioStreamPlayer2D14" type="AudioStreamPlayer2D" parent="Softer"]
+position = Vector2(256, -256)
+stream = ExtResource("1")
+volume_db = -10.0
+autoplay = true
+max_distance = 500.0
+attenuation = 5.0
+bus = &"woter"
+
+[node name="AudioStreamPlayer2D15" type="AudioStreamPlayer2D" parent="Softer"]
+position = Vector2(-256, -256)
+stream = ExtResource("1")
+volume_db = -10.0
+autoplay = true
+max_distance = 500.0
+attenuation = 5.0
+bus = &"woter"
+
+[node name="AudioStreamPlayer2D16" type="AudioStreamPlayer2D" parent="Softer"]
+position = Vector2(-256, 256)
+stream = ExtResource("1")
+volume_db = -10.0
+autoplay = true
+max_distance = 500.0
+attenuation = 5.0
+bus = &"woter"

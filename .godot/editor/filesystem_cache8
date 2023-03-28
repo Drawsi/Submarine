@@ -1,0 +1,43 @@
+2a60927148abd1d33b818b535e306557
+::res://::1680018237
+basic.tres::AudioBusLayout::-1::1678211535::0::1::::<><>::
+default_env.tres::Environment::7970642015473016242::1679853787::0::1::::<><>::
+digital-7.ttf::FontFile::3055906759391398770::1679851775::1679851781::1::::<><>::
+export_presets.cfg::TextFile::-1::1678272479::0::1::::<><>::
+icon.png::CompressedTexture2D::1622906873025212315::1654968635::1678283806::1::::<><>::
+progress.tscn::PackedScene::1826721147173613683::1679852234::0::1::::<><>::res://Assets/atari.tres<>uid://bjsklqs87cq87
+README.md::TextFile::-1::1659094107::0::1::::<><>::
+underwater.tres::AudioBusLayout::6227493636898505373::1679851563::0::1::::<><>::
+::res://addons/::1659094567
+::res://Assets/::1678211551
+atari.tres::FontFile::-1::1678211535::0::1::::<><>::res://Assets/AtariFontFullVersion-ZJ23.ttf
+AtariFontFullVersion-ZJ23.ttf::FontFile::3321737736403535659::1661778897::1678211551::1::::<><>::
+big_sonar.png::CompressedTexture2D::5302359034258772085::1657103248::1678211551::1::::<><>::
+big_sonar_clear.png::CompressedTexture2D::4211229276976012543::1657103260::1678211551::1::::<><>::
+White Noise Sound-Sound Effect.wav::AudioStreamWAV::6399844645015044423::1661781381::1678211551::1::::<><>::
+::res://Audio/::1678211548
+No Surprises.ogg::AudioStreamOggVorbis::7509068371899883129::1659095196::1678211548::1::::<><>::
+song.ogg::AudioStreamOggVorbis::7780312039022613607::1658934892::1678211548::1::::<><>::
+::res://Audio/Levels/::1660476843
+::res://Global/::1678282853
+::res://Levels/::1679852207
+1.tscn::PackedScene::5290433330840962858::1679852207::0::1::::<><>::uid://0g2j71sl5opa<>uid://bwi81amhj2x6l<>uid://xefblgmegf52
+::res://Player/::1679853787
+Player.gd::GDScript::-1::1679853787::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::1768764510170859414::1679853787::0::1::::<><>::res://Player/Player.gd<>uid://b087lisu8oi0n<>uid://bjsklqs87cq87<>res://Assets/atari.tres<>uid://1a43h7kkhteh<>uid://xefblgmegf52
+warning_beep.wav::AudioStreamWAV::5875414795317009738::1657892722::1678211551::1::::<><>::
+::res://Screens/::1678270631
+MENU.gd::GDScript::-1::1678211535::0::1::::<>Node2D<>::
+MENU.tscn::PackedScene::8132376168414582118::1678270631::0::1::::<><>::res://Assets/atari.tres<>res://Screens/MENU.gd<>uid://cxgerhiuxyn0r
+Visuals.gd::GDScript::-1::1678269224::0::1::::<>CanvasLayer<>::
+Visuals.tscn::PackedScene::327710997856563836::1678263843::0::1::::<><>::res://Screens/Visuals.gd<>uid://cpydhudn1k843<>uid://b087lisu8oi0n<>uid://xefblgmegf52<>uid://dqrakb440acgb
+::res://Test_Scene/::1679852207
+AudioVis.gd::GDScript::-1::1678211535::0::1::::<>Node2D<>::
+danger.tscn::PackedScene::-1::1678211535::0::1::::<><>::res://Test_Scene/point.gd
+point.gd::GDScript::-1::1678268215::0::1::::<>Polygon2D<>::
+point.tscn::PackedScene::3431208524130721500::1678549464::0::1::::<><>::res://Test_Scene/point.gd
+Ship.tscn::PackedScene::3949140376033929165::1679852207::0::1::::<><>::uid://de8pi2nupb7q8
+Space Base.png::CompressedTexture2D::1778091366634789418::1678289764::1678289764::1::::<><>::
+Test.gd::GDScript::-1::1678269224::0::1::::<>Node2D<>::
+Test.tscn::PackedScene::3108130154701542130::1679852207::0::1::::<><>::uid://0g2j71sl5opa<>uid://cy05kqx27anpy<>uid://bwi81amhj2x6l<>res://Test_Scene/Test.gd
+Walls.tscn::PackedScene::6510823303446155242::1678290778::0::1::::<><>::uid://xefblgmegf52<>uid://0lk51he6pp7g

@@ -1,0 +1,13 @@
+res://Assets/atari.tres::fb273573f51f752d19a48225996dcc3e::1678207935::res://.godot/exported/133200997/export-514a9e2b1c4e1cd96ee238a9e1f4e1c1-atari.res
+res://Levels/1.tscn::a8124b2e062ab9bc304271d47b624fe7::1678267834::res://.godot/exported/133200997/export-c869c8c4a535714dfa794096b02a1345-1.scn
+res://Player/Player.tscn::9749fa61bd9cbb6818bc90be7f241540::1678267849::res://.godot/exported/133200997/export-48b487cb3fbab0e0d627d8f8de2ba1d9-Player.scn
+res://Screens/MENU.tscn::68f9f6dfba0c8a3d243e868f7b79b920::1678267031::res://.godot/exported/133200997/export-bfb0afc37376aea89f197754a87496c7-MENU.scn
+res://Screens/Visuals.tscn::2535f312cfe931f63d860e94ddd2095f::1678260243::res://.godot/exported/133200997/export-924b2717dcd26b83fbd73ed18d9d582b-Visuals.scn
+res://Test_Scene/danger.tscn::b1f5e65c8fff1e03d52ad41e0c8c6255::1678207935::res://.godot/exported/133200997/export-26492731511f7edcde67dd7f0761b631-danger.scn
+res://Test_Scene/point.tscn::c48e75d57aecb7d3acddb10a10a7d4b7::1678207935::res://.godot/exported/133200997/export-5cdcca155dbcd8b382c48ba1719e2a8d-point.scn
+res://Test_Scene/Ship.tscn::192f077bc30c12d22aba935979e53a2f::1678267820::res://.godot/exported/133200997/export-6e5ad7a764ba1e2722a5eb9c3c7ceeb4-Ship.scn
+res://Test_Scene/Test.tscn::8665a7770067d3836c068bc2724963b8::1678267031::res://.godot/exported/133200997/export-b8c8681d052334c4d3bef0a91725e52e-Test.scn
+res://Test_Scene/Walls.tscn::30465b984ecdd3abe06a56181eb0efe7::1678207935::res://.godot/exported/133200997/export-deb545b83ddeb05a4de412bb4f8aeef6-Walls.scn
+res://basic.tres::d883572a30ed1a5f3761173097475712::1678207935::res://.godot/exported/133200997/export-7d6aedf8ab26b2f0865b6bbd0b497c18-basic.res
+res://default_env.tres::b8dcf7b7b214173ba8b51a0459c0cada::1678267849::res://.godot/exported/133200997/export-7cf3fd67ad9f55210191d77b582b8209-default_env.res
+res://underwater.tres::759ab58fb8e2a4ecf9b5f0039ecf55bb::1678259559::res://.godot/exported/133200997/export-639d4ff031d984811115273b9d24adfb-underwater.res

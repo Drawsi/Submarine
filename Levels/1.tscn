@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=3 uid="uid://chmywtur1p6o1"]
+
+[ext_resource type="PackedScene" uid="uid://0g2j71sl5opa" path="res://Player/Player.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://bwi81amhj2x6l" path="res://Test_Scene/Ship.tscn" id="3"]
+[ext_resource type="Texture2D" uid="uid://xefblgmegf52" path="res://icon.png" id="3_xa52b"]
+
+[node name="1" type="Node2D"]
+
+[node name="Outer_Walls" type="StaticBody2D" parent="."]
+position = Vector2(0, 40)
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Outer_Walls"]
+position = Vector2(0, 40)
+polygon = PackedVector2Array(648, 568, 848, 640, 1000, 560, 928, 408, 928, 264, 896, 216, 880, 176, 968, 80, 944, -48, 856, -216, 888, -312, 896, -448, 824, -496, 864, -576, 1016, -648, 1144, -672, 1248, -736, 1296, -848, 1288, -992, 1280, -1120, 1208, -1216, 1144, -1272, 1016, -1288, 872, -1288, 744, -1256, 768, -1440, 728, -1568, 600, -1600, 504, -1656, 392, -1648, 240, -1664, 112, -1608, -64, -1600, -224, -1536, -336, -1448, -256, -1416, -216, -1320, -344, -1328, -432, -1392, -560, -1352, -704, -1304, -768, -1352, -856, -1352, -1080, -1208, -1208, -1184, -1384, -1208, -1552, -1256, -1664, -1336, -1696, -1432, -624, -1472, -96, -1800, 744, -1800, 1064, -1456, 1488, -1296, 1312, 760, 496, 736, 600, 472, 544, 336, 576, -560, 144, -296, -344, -296, -1664, -368, -1696, -1432, -1664, -1336, -1592, -1224, -1584, -1104, -1616, -976, -1552, -816, -1288, -840, -1232, -872, -1240, -960, -952, -816, -728, -576, -576, -576, -472, -560, -368, -520, -216, -472, -152, -440, -80, -424, -16, -384, 88, -432, 192, -424, 256, -456, 312, -512, 360, -568, 368, -648, 408, -696, 520, -728, 632, -784, 704, -848, 864, -872, 848, -920, 808, -936, 800, -976, 944, -968, 1000, -904, 928, -792, 808, -760, 696, -744, 656, -488)
+
+[node name="Archipelagos" type="StaticBody2D" parent="."]
+position = Vector2(48, 40)
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Archipelagos"]
+position = Vector2(0, 40)
+polygon = PackedVector2Array(384, -1232, 432, -1288, 488, -1280, 536, -1232, 504, -1200, 424, -1176)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="Archipelagos"]
+position = Vector2(-64, 312)
+polygon = PackedVector2Array(432, -1248, 488, -1272, 544, -1184, 472, -1152, 416, -1208)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="Archipelagos"]
+position = Vector2(-64, 312)
+polygon = PackedVector2Array(48, -1176, 136, -1208, 144, -1248, 272, -1320, 208, -1176, 208, -1128, 160, -1040, 16, -1120, 16, -1160)
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="Archipelagos"]
+position = Vector2(-64, 312)
+polygon = PackedVector2Array(-40, -1504, -48, -1448, -8, -1392, 72, -1440, 128, -1512, 16, -1536)
+
+[node name="Player" parent="." instance=ExtResource("1")]
+position = Vector2(245, -870)
+
+[node name="Ship" parent="." instance=ExtResource("3")]
+position = Vector2(307, -836)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(804, -888)
+texture = ExtResource("3_xa52b")

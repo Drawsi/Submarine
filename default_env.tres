@@ -1,0 +1,13 @@
+[gd_resource type="Environment" load_steps=2 format=3 uid="uid://dltbkr0ngq5wo"]
+
+[sub_resource type="Sky" id="1"]
+
+[resource]
+sky = SubResource("1")
+glow_levels/1 = 1.0
+glow_levels/2 = 1.0
+glow_levels/4 = 1.0
+glow_levels/6 = 1.0
+glow_levels/7 = 1.0
+glow_intensity = 4.0
+glow_blend_mode = 0
